@@ -52,7 +52,7 @@
 .joz{
 
     background-color: dodgerblue;
-    width: 40%;
+
     height: 100%;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -63,18 +63,25 @@
     position: absolute;
     top: -30px;
     left: 90%;
-    padding: 3px;
-    background-color: red;
+    width: 30px;
+    height: 17px;
+    background-color: dodgerblue;
     color: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 17px;
+    z-index: 1;
 }
-.joz::before{
+.joz span::before{
     content: '';
     height: 8px;
     width: 8px;
-    background-color: red;
+    background-color: dodgerblue;
     position: absolute;
-    top: -18px;
-    left: 95%;
+    top: 12px;
+    left: 34%;
     transform: rotate(45deg);
+    z-index: -1;
+
 
 }
